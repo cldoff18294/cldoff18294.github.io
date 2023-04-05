@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Here;Name;;;
+FN:Name Here
+ORG:Business Name
+ADR;TYPE=WORK:Address
+TITLE:Job Title
+TEL;TYPE=CELL:+6598765432
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:xyz@defence.gov.sg
+URL;TYPE=Digital Business Card:
+URL:
+
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:Description here Description here Description here Description here Description here Description here Description here Description here Description here Description here Description here 
+UID:EnBizCard-100074784
+END:VCARD
