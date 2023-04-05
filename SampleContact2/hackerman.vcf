@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Man;Hacker;;;
+FN:Hacker Man
+ORG:Serious Buisness Only
+ADR;TYPE=WORK:Aurora, Colorado(CO), 80015
+TITLE:State Sponsored Hacker
+TEL;TYPE=CELL:+6598765432
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:legitmail@gmail.com
+URL;TYPE=Digital Business Card:
+URL:
+URL;TYPE=Discord:https://discordlink
+URL;TYPE=GitHub:https://github.com/legitgithubname
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:Contact me for all kinds of things
+UID:EnBizCard-100738253
+END:VCARD
