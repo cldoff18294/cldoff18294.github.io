@@ -7,8 +7,21 @@
     <!-- Link to the TailwindCSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css" rel="stylesheet">
     <style>
+        body {
+            background-image: url('https://i.pinimg.com/originals/ad/29/ac/ad29ac8cd3bd237154336a1ce216e94e.jpg');
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: blur(10px) brightness(0.7);
+        }
+
         .btn {
             padding: 10px 20px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
 
         @media screen and (max-width: 768px) {
@@ -16,10 +29,14 @@
                 padding: 16px 20px;
             }
         }
+
+        .welcome-text {
+            color: white;
+        }
     </style>
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col justify-center items-center">
-    <h1 class="text-4xl mb-10 text-gray-800 font-bold tracking-wide text-center">Welcome to my Website!</h1>
+    <h1 class="text-4xl mb-10 text-gray-800 font-bold tracking-wide text-center welcome-text">Welcome to my Website!</h1>
 
     <div class="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
         <!-- Button linking to page1.html -->
